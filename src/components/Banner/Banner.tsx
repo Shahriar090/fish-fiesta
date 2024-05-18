@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="pt-16 lg:pt-38 w-full max-w-screen-2xl mx-auto"
+      className="pt-16 lg:pt-40 w-full max-w-screen-2xl mx-auto"
     >
       <div className="relative w-full h-screen">
         <Image
