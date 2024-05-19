@@ -12,4 +12,5 @@ export interface FlashSalesData {
   flashSale: boolean;
   img: string;
   discount: string;
+  category: string;
 }

@@ -6,7 +6,7 @@ const FlashSalePage = async () => {
     next: { revalidate: 30 },
   });
   const products = await res.json();
-  console.log(products);
+
   return (
     <section
       id="all-flash-sell"

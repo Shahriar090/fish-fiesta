@@ -16,7 +16,7 @@ const FlashSale = async () => {
       className="pt-16 w-full max-w-screen-2xl mx-auto px-4 lg:px-36"
     >
       <div className="pb-16 flex justify-between items-center">
-        <h1 className="text-2xl text-black uppercase font-medium ">
+        <h1 className="text-2xl text-black uppercase font-medium">
           Flash Sale
         </h1>
         <Link href="/flash-sale">
