@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner/Banner";
 import Category from "@/components/Category/Category";
 import FlashSale from "@/components/FlashSale/FlashSale";
+import TrendingProducts from "@/components/TrendingProducts/TrendingProducts";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Banner />
       <FlashSale />
       <Category />
+      <TrendingProducts />
     </div>
   );
 };

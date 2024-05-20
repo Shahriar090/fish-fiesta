@@ -14,3 +14,16 @@ export interface FlashSalesData {
   discount: string;
   category: string;
 }
+
+export interface Products {
+  _id: string;
+  name: string;
+  price: string;
+  previousPrice: string;
+  description: string;
+  flashSale: boolean;
+  img: string;
+  discount: string;
+  category: string;
+  rating: number;
+}

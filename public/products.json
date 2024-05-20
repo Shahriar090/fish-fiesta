@@ -7,7 +7,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/165637260/photo/close-up-of-fresh-sea-bream-against-white-background.jpg?s=612x612&w=0&k=20&c=ta9lxLdf8ADO-ztQTWwXrYwW8Dg7lAeX4SuP8LYIdPY=",
     "discount": "20%",
-    "category": "freshwater-fish"
+    "category": "freshwater-fish",
+    "rating": 4.5
   },
   {
     "name": "Rui Fish",
@@ -17,7 +18,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/135898272/photo/whole-fresh-red-snapper.jpg?s=612x612&w=0&k=20&c=2HY-DeDg_Id9KxrzzTY3pudyMzqcrdZcVpBk0wLtNOk=",
     "discount": "14%",
-    "category": "freshwater-fish"
+    "category": "freshwater-fish",
+    "rating": 4.2
   },
   {
     "name": "Katla Fish",
@@ -27,7 +29,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/820871348/photo/fresh-fish-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Az8N9KMR_Bce4FdvvDDKQpEvjKbptKXx10FHATWNwEQ=",
     "discount": "11%",
-    "category": "saltwater-fish"
+    "category": "saltwater-fish",
+    "rating": 4.0
   },
   {
     "name": "Boal Fish",
@@ -37,7 +40,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/506475760/photo/seabass-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jRvfPQ2E3IrTPcMrh3fA1EK-XgxkP6lovp1pxB0rRes=",
     "discount": "11%",
-    "category": "saltwater-fish"
+    "category": "saltwater-fish",
+    "rating": 4.3
   },
   {
     "name": "Pabda Fish",
@@ -47,7 +51,8 @@
     "flashSale": false,
     "img": "https://media.istockphoto.com/id/94368519/photo/sea-bass.jpg?s=612x612&w=0&k=20&c=j8Imt8X1XOub4XhD-ijq9Y12zeTw5MCQeCr8k7-ztTY=",
     "discount": "9%",
-    "category": "seafood"
+    "category": "seafood",
+    "rating": 4.1
   },
   {
     "name": "Mrigal Fish",
@@ -57,7 +62,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/1412791036/photo/whole-salmon-isolated-on-white-fresh-raw-salmon-red-fish-whole-salmon-carcass-on-white.jpg?s=612x612&w=0&k=20&c=0Vglje6NuFc1dE-5Uw7Vfim4r65-tmU3Dzq6-v-1uec=",
     "discount": "12%",
-    "category": "seafood"
+    "category": "seafood",
+    "rating": 4.0
   },
   {
     "name": "Chital Fish",
@@ -67,7 +73,8 @@
     "flashSale": false,
     "img": "https://media.istockphoto.com/id/1808626291/photo/idaho-steelhead-trout-caught-on-a-fly-rod-in-november.jpg?s=612x612&w=0&k=20&c=9aMnRJsAxfTTUHof3Ju1xV1ESxLy0IxKpozJkZrunqM=",
     "discount": "13%",
-    "category": "tropical-fish"
+    "category": "tropical-fish",
+    "rating": 4.4
   },
   {
     "name": "Koi Fish",
@@ -77,7 +84,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/1846907053/photo/frozen-fish-in-a-store-rub-department-in-a-supermarket-seafood-on-ice.jpg?s=612x612&w=0&k=20&c=i05p3tOP9OM10roOzMBjuRqtb9kWNkvh721hIkbvHIk=",
     "discount": "10%",
-    "category": "tropical-fish"
+    "category": "tropical-fish",
+    "rating": 3.9
   },
   {
     "name": "Magur Fish",
@@ -87,7 +95,8 @@
     "flashSale": false,
     "img": "https://media.istockphoto.com/id/1814867599/photo/assortment-of-fresh-raw-fish-on-ice-in-supermarket.jpg?s=612x612&w=0&k=20&c=_stOY3uHWUqfD0V9PPn81zG6oPVifELcVgHl2GnZ9C8=",
     "discount": "14%",
-    "category": "coldwater-fish"
+    "category": "coldwater-fish",
+    "rating": 4.1
   },
   {
     "name": "Tilapia Fish",
@@ -97,7 +106,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/1198489926/photo/largemouth-bass.jpg?s=612x612&w=0&k=20&c=9XFEtj-491bqsiPjsEJJFxtQe_eNIxV_2eIL6XN4wmc=",
     "discount": "17%",
-    "category": "coldwater-fish"
+    "category": "coldwater-fish",
+    "rating": 4.3
   },
   {
     "name": "Chingri (Shrimp)",
@@ -107,7 +117,8 @@
     "flashSale": true,
     "img": "https://media.istockphoto.com/id/1135230208/photo/close-up-fresh-shrimps-at-the-gourmet-market.jpg?s=612x612&w=0&k=20&c=5nc5DQCWwpjSgP53ijMTXeM9m3Kf0ngZVi9RDax3iQ0=",
     "discount": "10%",
-    "category": "shellfish"
+    "category": "shellfish",
+    "rating": 4.6
   },
   {
     "name": "Pomfret Fish",
@@ -117,6 +128,7 @@
     "flashSale": false,
     "img": "https://media.istockphoto.com/id/154948441/photo/mackerel-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Bm32IfPeNE2IvJURyDBii_0brKaz456zPafqWH_pgwI=",
     "discount": "17%",
-    "category": "shellfish"
+    "category": "shellfish",
+    "rating": 4.5
   }
 ]
