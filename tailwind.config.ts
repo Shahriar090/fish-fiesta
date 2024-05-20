@@ -7,6 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/ui/FlashSaleCard.tsx",
     "./src/shared/Container",
+    "./src/utils/Stars.tsx",
   ],
   theme: {
     extend: {
