@@ -14,9 +14,7 @@ const Stars = ({ rating }: { rating: number }) => {
       </span>
     );
   });
-  return (
-    <div className="flex items-center text-green-500 mt-2">{starRating}</div>
-  );
+  return <div className="flex items-center text-green-500">{starRating}</div>;
 };
 
 export default Stars;

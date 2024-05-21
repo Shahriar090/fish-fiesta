@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Fish Fiesta",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );

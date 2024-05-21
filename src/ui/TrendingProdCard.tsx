@@ -5,14 +5,14 @@ const TrendingProdCard = ({ data }: any) => {
   const { img, rating, name, discount, price, previousPrice } = data;
 
   return (
-    <div className="card-container relative w-full max-w-lg bg-white shadow-xl mx-auto  p-5 lg:p-10">
-      <div className="h-44">
+    <div className="card-container relative w-full max-w-lg  bg-white shadow-xl mx-auto  p-5 lg:p-10 flex flex-col justify-between gap-5">
+      <div>
         <Image
           src={img}
           width={300}
           height={100}
           alt="Product Image"
-          className="h-24 mx-auto"
+          className="h-24 lg:mx-auto"
         />
       </div>
       <div className="details">
@@ -30,7 +30,7 @@ const TrendingProdCard = ({ data }: any) => {
           <Stars rating={rating} />
         </div>
       </div>
-      <div className="actions border flex justify-center mt-5 ">
+      <div className="actions border flex justify-center">
         <button className="w-full py-1 border text-green-600 font-medium border-green-600 hover:bg-green-600 hover:text-white transition-all duration-300">
           Shop Now
         </button>
