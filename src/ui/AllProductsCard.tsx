@@ -1,8 +1,10 @@
+import { Products } from "@/types";
 import Stars from "@/utils/Stars";
 import Image from "next/image";
+import Link from "next/link";
 
-const TrendingProdCard = ({ data }: any) => {
-  const { img, rating, name, discount, price, previousPrice } = data;
+const AllProductsCard = ({ data }: { data: Products }) => {
+  const { _id, img, name, discount, price, previousPrice, rating } = data;
 
   return (
     <div className="card-container relative w-full max-w-lg  bg-white shadow-xl mx-auto  p-5 lg:p-10 flex flex-col justify-between gap-5">
@@ -30,13 +32,15 @@ const TrendingProdCard = ({ data }: any) => {
           <Stars rating={rating} />
         </div>
       </div>
-      <div className="actions border flex justify-center">
-        <button className="w-full py-1 border text-green-600 font-medium border-green-600 hover:bg-green-600 hover:text-white transition-all duration-300">
-          Shop Now
-        </button>
+      <div className="actions">
+        <Link href={`/allProducts/${_id}`}>
+          <button className="w-full py-1 border text-green-600 font-medium border-green-600 hover:bg-green-600 hover:text-white transition-all duration-300">
+            Vew Details
+          </button>
+        </Link>
       </div>
     </div>
   );
 };
 
-export default TrendingProdCard;
+export default AllProductsCard;
