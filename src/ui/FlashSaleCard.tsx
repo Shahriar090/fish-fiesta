@@ -13,7 +13,7 @@ const FlashSaleCard = ({ data }: { data: FlashSalesData }) => {
             width={200}
             height={100}
             alt="Fish Image"
-            className="mx-auto h-32"
+            className="mx-auto"
           />
         </figure>
         <div className="details mt-5">
