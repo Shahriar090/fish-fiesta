@@ -2,7 +2,7 @@ import ProductDetailsCard from "@/ui/ProductDetailsCard";
 
 const SingleProductDetails = async ({ params }: any) => {
   const res = await fetch(
-    `http://localhost:5000/all-products/${params.productDetails}`
+    `https://bounty-basket-server.vercel.app/all-products/${params.productDetails}`
   );
   const data = await res.json();
 
