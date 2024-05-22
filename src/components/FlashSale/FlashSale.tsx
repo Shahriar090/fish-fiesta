@@ -5,9 +5,12 @@ import FlashSaleCard from "@/ui/FlashSaleCard";
 import Link from "next/link";
 
 const FlashSale = async () => {
-  const res = await fetch("http://localhost:5000/flash-sale", {
-    next: { revalidate: 30 },
-  });
+  const res = await fetch(
+    "https://bounty-basket-server.vercel.app/flash-sale",
+    {
+      next: { revalidate: 30 },
+    }
+  );
   const flashSales = await res.json();
 
   return (

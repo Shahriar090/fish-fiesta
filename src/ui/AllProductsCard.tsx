@@ -7,7 +7,7 @@ const AllProductsCard = ({ data }: { data: Products }) => {
   const { _id, img, name, discount, price, previousPrice, rating } = data;
 
   return (
-    <div className="card-container relative w-full max-w-lg  bg-white shadow-xl mx-auto  p-5 lg:p-10 flex flex-col justify-between gap-5">
+    <div className="card-container relative w-full max-w-lg bg-white shadow-xl mx-auto  p-5 lg:p-10 flex flex-col justify-between gap-5">
       <div>
         <Image
           src={img}

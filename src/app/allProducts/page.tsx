@@ -1,16 +1,21 @@
-import { Products } from "@/types";
-import AllProductsCard from "@/ui/AllProductsCard";
+import Filltering from "@/shared/Filltering/Filltering";
 
 const AllProductsDetails = async () => {
-  const res = await fetch("http://localhost:5000/all-products?sort=rating");
+  const res = await fetch(
+    "https://bounty-basket-server.vercel.app/all-products"
+  );
   const allProducts = await res.json();
 
   return (
-    <section className="pt-16 lg:pt-48 w-full max-w-screen-2xl mx-auto px-4 lg:px-36">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {allProducts.map((product: Products) => (
-          <AllProductsCard key={product._id} data={product} />
-        ))}
+    <section className="pt-16 lg:pt-48 w-full max-w-screen-2xl mx-auto px-4 lg:px-36 ">
+      <div className="filtering-box">
+        <h1 className="text-xl font-medium text-black uppercase">
+          Our collection of products
+        </h1>
+        <div className="h-1 w-28 bg-green-500"></div>
+        <div className="filter-container mt-4">
+          <Filltering allProducts={allProducts} />
+        </div>
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import CategoryCard from "@/ui/CategoryCard";
 
 const AllProductsPage = async ({ searchParams }: { searchParams: any }) => {
   const res = await fetch(
-    `http://localhost:5000/all-products?category=${searchParams.category}`,
+    `https://bounty-basket-server.vercel.app/all-products?category=${searchParams.category}`,
     { cache: "no-store" }
   );
   const data = await res.json();

@@ -2,9 +2,12 @@ import { FlashSalesData } from "@/types";
 import FlashSaleCard from "@/ui/FlashSaleCard";
 
 const FlashSalePage = async () => {
-  const res = await fetch("http://localhost:5000/flash-sale", {
-    next: { revalidate: 30 },
-  });
+  const res = await fetch(
+    "https://bounty-basket-server.vercel.app/flash-sale",
+    {
+      next: { revalidate: 30 },
+    }
+  );
   const products = await res.json();
 
   return (

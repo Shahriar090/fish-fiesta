@@ -3,7 +3,7 @@ import TrendingProdCard from "@/ui/TrendingProdCard";
 
 const TrendingProducts = async () => {
   const res = await fetch(
-    "http://localhost:5000/all-products?sort=rating&limit=6",
+    "https://bounty-basket-server.vercel.app/all-products?sort=rating&limit=6",
     {
       cache: "no-store",
       next: { revalidate: 30 },
