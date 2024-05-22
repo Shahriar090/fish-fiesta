@@ -5,7 +5,6 @@ const TrendingProducts = async () => {
   const res = await fetch(
     "https://bounty-basket-server.vercel.app/all-products?sort=rating&limit=6",
     {
-      cache: "no-store",
       next: { revalidate: 30 },
     }
   );

@@ -2,7 +2,10 @@ import Table from "@/ui/Table";
 
 const DashboardAllProducts = async () => {
   const res = await fetch(
-    "https://bounty-basket-server.vercel.app/all-products"
+    "https://bounty-basket-server.vercel.app/all-products",
+    {
+      cache: "no-store",
+    }
   );
   const allProducts = await res.json();
 
