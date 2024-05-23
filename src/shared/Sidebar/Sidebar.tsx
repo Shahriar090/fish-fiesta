@@ -30,7 +30,7 @@ const Sidebar = () => {
       </div>
 
       {/* mobile drawer */}
-      <div className="lg:hidden pt-24">
+      <div className="lg:hidden pt-20">
         <button onClick={handleDrawerToggle} className="text-4xl">
           {isMobileMenuOpen ? (
             <MdClose className="text-red-500" />
@@ -40,8 +40,8 @@ const Sidebar = () => {
         </button>
       </div>
       {isMobileMenuOpen && (
-        <div className="fixed  top-8 right-0 z-20 w-52 h-full">
-          <div className="nav-items flex flex-col items-center pt-16 gap-5">
+        <div className=" top-10 right-0 z-20 w-full h-full">
+          <div className="nav-items flex flex-col items-center gap-5">
             <li className="text-black font-medium uppercase">
               <Link href="/dashboard">Dashboard</Link>
             </li>
